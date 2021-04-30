@@ -1,0 +1,56 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%
+  }
+
+  button {
+    background: red;
+  }
+}
+
+.container__top {
+  background: green;
+  width: 100%;
+  
+
+}
+
+.title {
+  color: #DADADA;
+  font-size: 1.14rem;
+  font-weight: 700;
+  font-family: Zen Dots, sans-serif;
+}
+
+.paragraf {
+  font-size: 1.5rem;
+}
+
+.container__top .paragraf p {
+  color: #FFF;
+}
+
+.btn p {
+  color: #fff;
+}
+
+.container__bottom {
+  background: red;
+  height: 400px;
+  width: 400px;
+
+}
+
